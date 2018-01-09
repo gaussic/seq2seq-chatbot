@@ -35,7 +35,7 @@ print("Cleaned QA pairs:", len(questions))
 
 vocab_size = 10000
 
-vocabs = ['<sos>', '<eos>', '<unk>', '<pad>']
+vocabs = ['<pad>', '<sos>', '<eos>', '<unk>']
 all_data = []
 for line in questions + answers:
     all_data.extend(line)
